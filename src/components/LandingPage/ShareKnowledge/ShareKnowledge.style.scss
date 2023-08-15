@@ -1,0 +1,41 @@
+.share-knowledge-container {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left-share {
+    width: 45%;
+    img {
+      width: 100%;
+    }
+  }
+  .right-share {
+    width: 55%;
+    h2 {
+      font-size: 45px;
+      color: #555;
+      font-weight: bold;
+    }
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      color: #7b7a7a;
+      font-weight: bold;
+    }
+    button {
+      padding: 10px 40px;
+      background-color: #9c4df4;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      &:hover {
+        color: #9c4df4;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    }
+  }
+}

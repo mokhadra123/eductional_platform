@@ -1,0 +1,57 @@
+.categories-container {
+  width: 80%;
+  margin: 150px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  .category {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    h2 {
+      width: 45px;
+      height: 45px;
+      margin: 0 auto;
+      font-size: 35px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      border-radius: 50%;
+    }
+    .class-1 {
+      background-color: #ffb54a;
+    }
+    .class-2 {
+      background-color: rgb(66, 66, 66);
+    }
+    .class-3 {
+      background-color: #07e5ca;
+    }
+    h5 {
+      font-size: 29px;
+      margin-bottom: -35px;
+    }
+    h6 {
+      font-size: 20px;
+      color: #555;
+    }
+    button {
+      padding: 15px 20px;
+      color: #9c4df4;
+      border: #9c4df4 2px solid;
+      background-color: white;
+      border-radius: 5px;
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      &:hover {
+        background-color: #9c4df4;
+        color: white;
+      }
+    }
+  }
+}
